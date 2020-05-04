@@ -1,7 +1,17 @@
 /*CSS DOCUMENT*/
 @import url("https://use.typekit.net/pip8axv.css");
 
+header{
+letter-spacing: .05em;    
+margin: 0em 1em 1em 1em;
+padding: 1em 1em 1em 1em;  
+text-align: center;    
+}
 
+div.container{
+    max-width:100em;
+    margin: auto;    
+}
 .container h1{
 font-family: miller-banner, serif;
 font-weight: 800;
@@ -10,6 +20,7 @@ font-size: 29em:
 }
 
 .container h2{
+color: #A8C18B;    
 font-family: Snell Roundhand, cursive;
 font-weight: 400;
 font-style: normal;
@@ -18,52 +29,60 @@ font-size: 1.75em;
 
 img {
 width: 50%;
-float:left;    
+float:left; 
+margin-left: auto;
+margin-right: auto;    
 }
 
 .intro p {  
 width: 40%;
-height: 16em;    
-color: rgb(216,192,71);
+height: 15em;    
+color: rgb(0,0,0);
 line-height: 1.3em;    
 font-family: miller-banner, serif;
 font-weight: 300;
-font-style: normal;    
-font-size: 2em;    
-padding-bottom: 0em;
+font-style: normal; 
+font-size: 2em;     
+padding-bottom: 1em;
 padding-left: 2em;
 padding-right: 2em;
-padding-top: 0em;
+padding-top: 1em;
 float: left;    
     
 }
 
-div.ingredients{ 
-background-color: rgb(240,238,228);     
+h3{    
+font-family: Snell Roundhand, cursive;
+font-weight: 600;
+font-style: normal;
+font-size: 1.5em;     
+}
+.ingredients{ 
+background-color: #D7DCD0;     
 width: 40em;
 height: 27.30em;
 font-family: miller-banner, serif;
 font-weight: 200;
 font-style: normal;    
 float:left;  
-padding-bottom: 1em;
+padding-bottom: .5em;
 padding-left: 2em;
 padding-right: 2em;
-padding-top: 0;    
+padding-top: .5em;    
 }
 
-div.directions{  
-background-color: rgb(240,238,228);    
+.directions{  
+background-color: #D7DCD0;    
 width: 38em;
-height: 28.25em;
+height: 27.25em;
 font-family: miller-banner, serif;
 font-weight: 200;
 font-style: normal;
 float:left; 
-padding-bottom: 0;
+padding-bottom: .5em;
 padding-left: 2em;
 padding-right: 4em;
-padding-top: 0;     
+padding-top: .5em;     
 }
 
 footer {
