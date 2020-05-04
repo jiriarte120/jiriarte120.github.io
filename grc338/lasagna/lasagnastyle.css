@@ -1,0 +1,73 @@
+/*CSS DOCUMENT*/
+@import url("https://use.typekit.net/pip8axv.css");
+
+
+.container h1{
+font-family: miller-banner, serif;
+font-weight: 800;
+font-style: normal;
+font-size: 29em:    
+}
+
+.container h2{
+font-family: Snell Roundhand, cursive;
+font-weight: 400;
+font-style: normal;
+font-size: 1.75em;    
+}
+
+img {
+width: 50%;
+float:left;    
+}
+
+.intro p {  
+width: 40%;
+height: 16em;    
+color: rgb(216,192,71);
+line-height: 1.3em;    
+font-family: miller-banner, serif;
+font-weight: 300;
+font-style: normal;    
+font-size: 2em;    
+padding-bottom: 0em;
+padding-left: 2em;
+padding-right: 2em;
+padding-top: 0em;
+float: left;    
+    
+}
+
+div.ingredients{ 
+background-color: rgb(240,238,228);     
+width: 40em;
+height: 27.30em;
+font-family: miller-banner, serif;
+font-weight: 200;
+font-style: normal;    
+float:left;  
+padding-bottom: 1em;
+padding-left: 2em;
+padding-right: 2em;
+padding-top: 0;    
+}
+
+div.directions{  
+background-color: rgb(240,238,228);    
+width: 38em;
+height: 28.25em;
+font-family: miller-banner, serif;
+font-weight: 200;
+font-style: normal;
+float:left; 
+padding-bottom: 0;
+padding-left: 2em;
+padding-right: 4em;
+padding-top: 0;     
+}
+
+footer {
+float:left;
+align-content: center;    
+}
+
