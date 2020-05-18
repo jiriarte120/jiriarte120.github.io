@@ -34,15 +34,18 @@ nav{
 nav ul{
     margin: 0;
     padding: 0;
+    overflow: hidden;
     list-style: none;
         
 }
 
 nav li{
     display: inline-block;
-    margin-left: .75em;
-    margin-right: 1em;
-    margin-top: .75em;
+    font-weight:400;
+    text-align: center;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .5em;
 }
 
 a{
@@ -65,8 +68,8 @@ a:hover{
     font-family: americane, sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin-top: 4em;
-    padding-top: .5em;
+    margin-top: 2.75em;
+    padding-top: .75em;
 }
 
 .button a{
@@ -75,7 +78,7 @@ a:hover{
 .tacos img{
     width: 100%;
     padding-top:1em;
-    padding-bottom: 1.25em;
+    padding-bottom: .25em;
 }
 
 .salsa img{
@@ -108,26 +111,37 @@ a:hover{
 
 .bull img{
     width: 100%;
-    padding-top:1em;
-    padding-bottom: 1.25em;
-}
+    padding-top:.15em;
+    padding-bottom: .25em;
 }
 
 h1{
     font-weight: 1000;
     text-align: center;
-    color:#AED581;
+    margin-top: .50em;
+    margin-bottom: .50em;
 }
 
 h2{
     font-weight:600;
     color:#F57F17;
+    margin-bottom: .15em;
 }
 
 h3{
     font-weight: 600;
     text-align: center;
     color:#AED581;
+    margin-top: .25em;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: .25em;
+}
+
+.message h1{
+    align-content: center;
 }
 
 .price{
@@ -154,7 +168,7 @@ ul{
     float: left;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 .tacolist p{
@@ -168,7 +182,7 @@ ul{
     float: left;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 .sidelist p {
@@ -182,7 +196,7 @@ ul{
     float: left;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 .combolist p {
@@ -196,7 +210,7 @@ ul{
     float: left;
     margin-left: 1em;
     margin-right: 2em;
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 .postreslist p {
