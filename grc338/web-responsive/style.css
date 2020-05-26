@@ -1,0 +1,268 @@
+/*CSS DOCUMENT*/
+@import url("https://use.typekit.net/wck3lnu.css");
+
+body {
+    margin: 0;
+    font-family: sweet-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+    padding: 0.25em 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    padding: 0em 0em 0em 0em;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin-right: 1em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+nav ul li:last-child {
+    padding-right: 0.125em;
+}
+
+nav ul li a i {
+    padding-right: 1.25em;
+    color: #aed581;
+    transition: all 0.5s ease 0s;
+}
+
+.toggle-menu ul {
+    display: block;
+    width: 2.125em;
+}
+
+.toggle-menu ul li {
+    width: 100%;
+    height: 0.375em;
+    background-color: #aed581;
+    margin-bottom: 0.25em;
+}
+
+.toggle-menu ul li:last-child {
+    margin-bottom: 0.25em;
+}
+
+input[type="checkbox"],
+label {
+    display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+    section {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    header {
+        padding: 1.25em 0em;
+    }
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: -624.938em;
+    left: -624.938em;
+    background: none;
+}
+
+input[type="checkbox"]:focus {
+    background: none;
+}
+
+label {
+    float: right;
+    padding: 0.125em 0.125em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+}
+
+nav {
+    display: none;
+    position: absolute;
+    right: 0em;
+    top: 3.5em;
+    padding: 0em;
+    z-index: 99;
+}
+
+nav ul {
+    width: auto;
+}
+
+nav ul li {
+    float: none;
+    padding: 0.15em;
+    width: 1em;
+    display: table;
+}
+
+nav ul li a {
+    color: #000;
+    font-size: 1em;
+    padding: 0.15em 0.15em;
+    display: inline-block;
+}
+
+nav ul li a i {
+    padding-right: 1.25em;
+}
+
+a {
+    color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aed581;
+}
+
+.button {
+    background-color: #f57f17;
+    width: 15em;
+    height: 3em;
+    text-align: center;
+    font-family: americane, sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    margin-top: 2.75em;
+    padding-top: 1.5em;
+}
+
+.button a {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.tacos img {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+}
+
+.salsa img {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1.25em;
+}
+
+.location1 img {
+    display: inline;
+    float: left;
+    width: 100%;
+    margin-right: 0.55em;
+    padding-top: 1em;
+    padding-bottom: 1.25em;
+}
+
+.location2 img {
+    display: inline;
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    padding-top: 1em;
+    padding-bottom: 1.25em;
+}
+
+.locationdescription {
+    float: left;
+}
+
+.bull img {
+    width: 100%;
+    padding-top: 0.15em;
+    padding-bottom: 0.25em;
+}
+
+h1 {
+    font-weight: 1000;
+    text-align: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2em;
+    color: #f57f17;
+    margin-bottom: 0.15em;
+}
+
+h3 {
+    font-weight: 600;
+    text-align: left;
+    color: #aed581;
+    margin-left: 0.75em;
+    text-transform: uppercase;
+    margin-top: 0.25em;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0.25em;
+}
+
+.message h1 {
+    align-content: center;
+}
+
+.price {
+    color: #7e7e7e;
+    font-weight: 550;
+}
+
+ul {
+    list-style-type: none;
+    display: flow-root;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menulist p {
+    margin-top: 0.25em;
+    font-size: 1em;
+    width: 16em;
+}
+
+.menulist li {
+    display: inline;
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
